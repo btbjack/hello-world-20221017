@@ -4,7 +4,7 @@ float centerX, centerY, xStart, yStart, widthRect, heightRect;
 color blackNightMode=#000000, red=#F8FC64, golden=#FA00F6, white=#FFFFFF; //Hexidecimal
 color redNightMode=#F8FC00, goldenNightMode=#FA0096; //Hexidecimal
 float thin, normal, thick;
-Boolean greyscale=false, BackgroundColour=false;
+Boolean grayScale=false, backgroundColour=false, nightMode=false;
 //
 void setup() {
   //Declaring Display Geometry: landscape, square, portrait
